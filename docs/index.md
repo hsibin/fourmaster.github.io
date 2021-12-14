@@ -1,14 +1,13 @@
-## Welcome to GitHub Pages
+## 剧本杀APP简介
 
-You can use the [editor on GitHub](https://github.com/hsibin/hsibin.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+- 小组：虫科圣手
+- 项目名称：skdemo
 
 ---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+### Markdown
 
 ```markdown
 Syntax highlighted code block
