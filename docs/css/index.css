@@ -190,7 +190,8 @@ body {
     box-shadow: 0 0 5px #999;
     margin: 14px auto;
 }
-.ms-ex img{
+
+.ms-ex img {
     box-shadow: 0 0 5px #999;
 }
 
@@ -290,4 +291,56 @@ h3 {
 h1 {
     line-height: 24px;
     font-size: 44px;
+}
+
+.scroll-td {
+    width: 260px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 0 20px;
+}
+
+.scroll-td img {
+    width: 100%;
+}
+
+.scroll-td::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 0.5s linear;
+}
+
+.scroll-td:hover::before {
+    width: 0;
+}
+
+.scroll-td:nth-child(1)::before {
+    background-image: url("../images/index/底部/img.png");
+}
+
+.scroll-td:nth-child(2)::before {
+    background-image: url("../images/index/底部/img_1.png");
+}
+
+.scroll-td:nth-child(3)::before {
+    background-image: url("../images/index/底部/img_2.png");
+}
+
+.scroll-td:nth-child(4)::before {
+    background-image: url("../images/index/底部/img_3.png");
+}
+
+.scroll-td:nth-child(5)::before {
+    background-image: url("../images/index/底部/img_4.png");
+}
+
+.scroll-td:nth-child(6)::before {
+    background-image: url("../images/index/底部/img_5.png");
 }
