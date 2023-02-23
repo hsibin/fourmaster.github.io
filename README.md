@@ -1,3 +1,3 @@
-### 这是基于 GitHub Pages 所建立的网站
-
-- nice
+### 这是使用 GitHub Pages 所建立的网站
+#### JS期末大作业
+> 一个纯静态网站
